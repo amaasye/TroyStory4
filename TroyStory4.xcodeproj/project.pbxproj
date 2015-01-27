@@ -10,11 +10,12 @@
 		B006CD721A77F83300E06F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B006CD711A77F83300E06F8A /* main.m */; };
 		B006CD751A77F83300E06F8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B006CD741A77F83300E06F8A /* AppDelegate.m */; };
 		B006CD781A77F83300E06F8A /* TroyStory4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B006CD761A77F83300E06F8A /* TroyStory4.xcdatamodeld */; };
-		B006CD7B1A77F83300E06F8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B006CD7A1A77F83300E06F8A /* ViewController.m */; };
+		B006CD7B1A77F83300E06F8A /* WarriorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B006CD7A1A77F83300E06F8A /* WarriorListViewController.m */; };
 		B006CD7E1A77F83300E06F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B006CD7C1A77F83300E06F8A /* Main.storyboard */; };
 		B006CD801A77F83300E06F8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B006CD7F1A77F83300E06F8A /* Images.xcassets */; };
 		B006CD831A77F83300E06F8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B006CD811A77F83300E06F8A /* LaunchScreen.xib */; };
 		B006CD8F1A77F83300E06F8A /* TroyStory4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B006CD8E1A77F83300E06F8A /* TroyStory4Tests.m */; };
+		B0AE7B331A7808310052ABE5 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AE7B321A7808310052ABE5 /* Warrior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		B006CD731A77F83300E06F8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B006CD741A77F83300E06F8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B006CD771A77F83300E06F8A /* TroyStory4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroyStory4.xcdatamodel; sourceTree = "<group>"; };
-		B006CD791A77F83300E06F8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B006CD7A1A77F83300E06F8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B006CD791A77F83300E06F8A /* WarriorListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarriorListViewController.h; sourceTree = "<group>"; };
+		B006CD7A1A77F83300E06F8A /* WarriorListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorListViewController.m; sourceTree = "<group>"; };
 		B006CD7D1A77F83300E06F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B006CD7F1A77F83300E06F8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B006CD821A77F83300E06F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B006CD881A77F83300E06F8A /* TroyStory4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStory4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B006CD8D1A77F83300E06F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B006CD8E1A77F83300E06F8A /* TroyStory4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory4Tests.m; sourceTree = "<group>"; };
+		B0AE7B311A7808310052ABE5 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		B0AE7B321A7808310052ABE5 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +88,11 @@
 			children = (
 				B006CD731A77F83300E06F8A /* AppDelegate.h */,
 				B006CD741A77F83300E06F8A /* AppDelegate.m */,
-				B006CD791A77F83300E06F8A /* ViewController.h */,
-				B006CD7A1A77F83300E06F8A /* ViewController.m */,
+				B006CD791A77F83300E06F8A /* WarriorListViewController.h */,
+				B006CD7A1A77F83300E06F8A /* WarriorListViewController.m */,
 				B006CD7C1A77F83300E06F8A /* Main.storyboard */,
+				B0AE7B311A7808310052ABE5 /* Warrior.h */,
+				B0AE7B321A7808310052ABE5 /* Warrior.m */,
 				B006CD7F1A77F83300E06F8A /* Images.xcassets */,
 				B006CD811A77F83300E06F8A /* LaunchScreen.xib */,
 				B006CD761A77F83300E06F8A /* TroyStory4.xcdatamodeld */,
@@ -224,7 +229,8 @@
 			files = (
 				B006CD781A77F83300E06F8A /* TroyStory4.xcdatamodeld in Sources */,
 				B006CD751A77F83300E06F8A /* AppDelegate.m in Sources */,
-				B006CD7B1A77F83300E06F8A /* ViewController.m in Sources */,
+				B0AE7B331A7808310052ABE5 /* Warrior.m in Sources */,
+				B006CD7B1A77F83300E06F8A /* WarriorListViewController.m in Sources */,
 				B006CD721A77F83300E06F8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				B006CD941A77F83300E06F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B006CD951A77F83300E06F8A /* Build configuration list for PBXNativeTarget "TroyStory4Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				B006CD971A77F83300E06F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
